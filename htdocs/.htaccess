@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|img|css|robots\.txt|js)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^www.beblank.com$ [NC]
+RewriteRule ^(.*)$ http://beblank.com/$1 [R=301,L]
+
+

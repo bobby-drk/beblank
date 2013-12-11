@@ -1,0 +1,38 @@
+/************************************************************************************
+* Debug Code
+************************************************************************************/
+#debug_code span:after
+{
+	content: "S";
+}
+/********************/
+.off_small	{ display:none;		}
+.on_small	{ display:block;	}
+
+html, body
+{
+	padding:0px;
+	margin:0px;
+	
+}
+
+.container
+{
+	margin:0px;
+	border-radius:0px;
+}
+
+#header
+{
+	border-radius:0px;
+}
+
+.navbar ul li
+{
+	padding:0 15px;
+}
+
+.navbar ul
+{
+	padding:0px 0px 0px 10px;
+}

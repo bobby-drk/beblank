@@ -1,0 +1,36 @@
+/************************************************************************************
+* Debug Code
+************************************************************************************/
+#debug_code span:after
+{
+	content: "M";
+}
+/********************/
+
+#header
+{
+	height:50px;
+}
+
+#logo
+{
+	width:71px;
+	height:40px;
+	background: url('/img/small_logo.png') no-repeat left center;
+}
+
+#main_title
+{
+	top:5px;
+	left:80px;
+	font-size:20px;
+}
+
+.sub_title
+{
+
+	top:30px;
+	left:80px;
+	font-size:12px;
+}
+

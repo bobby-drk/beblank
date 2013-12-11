@@ -1,0 +1,4 @@
+<?= $header ?>
+<?= $display_message ?>
+<?= $page ?>
+<?= $footer ?>
